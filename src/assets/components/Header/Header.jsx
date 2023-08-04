@@ -10,7 +10,7 @@ function Header() {
         <Container>
         <Navbar.Brand href="#home">
             <img
-                src="src/assets/img/logo.svg"
+                src="logo.svg"
                 width="30"
                 height="30"
                 className="d-inline-block align-top"
@@ -27,7 +27,7 @@ function Header() {
             <Nav.Link href="#contacto">Contacto</Nav.Link>
             <Navbar.Brand href="https://github.com/LuisOL2022" target='_blank'>
             <img
-                src="src/assets/img/github.svg"
+                src="github.svg"
                 width="30"
                 height="30"
                 className="d-inline-block align-top"
