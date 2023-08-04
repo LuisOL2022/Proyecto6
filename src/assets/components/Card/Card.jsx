@@ -1,12 +1,13 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
+import './Card.css';
 
 const CardComponent = () => {
     return (
     <div className="container">
         <div className="row">
         <div className="col-md-3">
-            <Card>
+            <Card className='custom-card'>
             <Card.Img variant="top" src="isibaby.png" />
             <Card.Body>
                 <Card.Title>ISSIBABY</Card.Title>
@@ -17,7 +18,7 @@ const CardComponent = () => {
             </Card.Body>
             </Card>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3 custom-card">
             <Card>
             <Card.Img variant="top" src="CRUD.png" />
             <Card.Body>
@@ -29,7 +30,7 @@ const CardComponent = () => {
             </Card.Body>
             </Card>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3 custom-card">
             <Card>
             <Card.Img variant="top" src="Dashboard.png" />
             <Card.Body>
@@ -41,7 +42,7 @@ const CardComponent = () => {
             </Card.Body>
             </Card>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3 custom-card">
             <Card>
             <Card.Img variant="top" src="completo.png" />
             <Card.Body>

@@ -6,12 +6,12 @@ const EducationSection = () => {
     <div className="container mt-4">
       <h2>Educación</h2>
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-6">
           <h4>UNIVERSAD DEL DESARROLLO</h4>
           <p>BOOTCAMP DESARROLLO WEB FULL STACK</p>
           <p>Año de graduación: 2023 AGOSTO</p>
         </div>
-        <div className="col-md-8">
+        <div className="col-md-6 text-center" >
         <h4>Insignias</h4>
         <ul className="horizontal-list">
             <li>
