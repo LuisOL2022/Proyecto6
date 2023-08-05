@@ -2,7 +2,7 @@ import React from 'react';
 
 const SkillsSection = () => {
   return (
-    <div className="container mt-4">
+    <div className="container mt-4 py-3 bg-primary bg-gradient text-white">
       <h2>SKILLS</h2>
       <div className="row">
         <div className="col-md-3">

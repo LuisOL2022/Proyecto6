@@ -3,8 +3,8 @@ import './Estudios.css';
 
 const EducationSection = () => {
   return (
-    <div className="container mt-4">
-      <h2>Educación</h2>
+    <div className="container mt-4 py-3 bg-primary bg-gradient text-white">
+      <h2>ESTUDIOS</h2>
       <div className="row">
         <div className="col-md-6">
           <h4>UNIVERSAD DEL DESARROLLO</h4>
@@ -50,7 +50,6 @@ const EducationSection = () => {
               
               </a>
             </li>
-            {/* Agrega más insignias si es necesario */}
           </ul>
         </div>
       </div>

@@ -4,7 +4,8 @@ import './Card.css';
 
 const CardComponent = () => {
     return (
-    <div className="container">
+    <div className="container py-3 bg-primary bg-gradient text-white">
+        <h2>PORTAFOLIO</h2>
         <div className="row">
         <div className="col-md-3">
             <Card className='custom-card'>

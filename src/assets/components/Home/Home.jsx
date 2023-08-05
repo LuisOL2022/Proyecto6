@@ -2,11 +2,11 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="container py-3 bg-primary bg-gradient text-white">
       <div className="row">
         <div className="col-md-6">
           <img
-            src="https://img.freepik.com/foto-gratis/retrato-joven-sonriente-gafas_171337-4842.jpg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHTYf1wmXf_pbJkIbrKWimqH1MBOMLLURhvw&usqp=CAU"
             alt="Imagen de inicio"
             className="img-fluid"
           />
@@ -14,12 +14,13 @@ const Home = () => {
         <div className="col-md-6">
           <h1>SOBRE MI</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel
-            elit nec nunc gravida consequat in in est. Vivamus eget luctus
-            lectus. Sed ut ultricies metus. Nullam iaculis, arcu a ultrices
-            lacinia, odio eros mattis tortor, vel vulputate arcu nibh nec orci.
-            Vivamus tristique, sem vel tincidunt aliquet, eros nisi lacinia
-            odio, ut auctor arcu turpis eget velit.
+          "Me describo como una persona proactiva, siempre buscando anticiparme a los desafíos y tomar la iniciativa para resolver problemas y alcanzar metas. Soy autodidacta y me apasiona aprender constantemente, lo que me ha permitido adquirir habilidades diversas y mantenerme actualizado en diferentes áreas.
+
+Mi personalidad amistosa y sociable me facilita la interacción con los demás. Disfruto de trabajar en equipo y crear un ambiente cordial y colaborativo para lograr un objetivo común. Soy adaptable y me siento cómodo enfrentando situaciones cambiantes, lo que me permite ajustarme a nuevos entornos y circunstancias sin problema.
+
+Una de mis mayores fortalezas es la creatividad. Siempre busco encontrar soluciones innovadoras y pensar fuera de lo convencional para mejorar procesos o abordar cualquier desafío que se presente. Me encanta explorar nuevas ideas y enfoques para alcanzar resultados sorprendentes.
+
+En resumen, soy una persona proactiva, autodidacta, amistosa, sociable, adaptable y creativa, lo que me permite aportar un valor significativo en cualquier entorno y trabajar de manera efectiva con colegas y equipos diversos.".
           </p>
         </div>
       </div>

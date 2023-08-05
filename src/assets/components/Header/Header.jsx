@@ -8,7 +8,7 @@ function Header() {
     return (
     <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="">
             <img
                 src="logo.svg"
                 width="30"
@@ -16,7 +16,7 @@ function Header() {
                 className="d-inline-block align-top"
                 alt="React Bootstrap logo"
             /></Navbar.Brand>
-        <Navbar.Brand href="#home">Luis Olivares <br />Full Stack</Navbar.Brand>
+        <Navbar.Brand href="">Luis Olivares <br />Full Stack</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
@@ -31,7 +31,7 @@ function Header() {
                 width="30"
                 height="30"
                 className="d-inline-block align-top"
-                alt="React Bootstrap logo"
+                alt="github logo"
             /></Navbar.Brand>
 
 
